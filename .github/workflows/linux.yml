@@ -283,7 +283,7 @@ jobs:
     - name: Test SWIG binding
       run: |
         sudo apt update
-        sudo apt install swig
+        sudo apt install make swig
         make -C tools/swig/test
 
   array_api_tests:
