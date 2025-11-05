@@ -10,6 +10,7 @@ on:
     branches:
       # coverage comparison in the "full" step needs to run on main after merges
       - main
+      - swig-test
   pull_request:
     branches:
       - main
